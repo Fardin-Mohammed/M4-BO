@@ -1,0 +1,76 @@
+{
+     "products": [
+        {
+            "id":0,
+            "name":"New Balance Unisex U1906RCJ Mushroom/Black/Black Metallic",
+            "image":"https://cdn.etrias.nl/media/cache/product_thumb_md/n/e/new-balance-unisex-u1906rcj-mushroom-black-black-metallic-u1906rcj-d.jpg",
+            "prijs": 160.00,
+            "text":"",
+            "brand": "New Balance"
+        },
+        {
+            "id":1,
+            "name":"New Balance Unisex U1906WNS Black",
+            "image":"https://cdn.etrias.nl/media/cache/product_thumb_xs/n/e/new-balance-unisex-u1906wns-black-u1906wns-d.jpg",
+            "prijs":160.00,
+            "text":"",
+            "brand": "New Balance"
+        },
+        {
+            "id":2,
+            "name":"New Balance Unisex U1906WGS Black/Black Cement/Castlerock/Silver Metallic",
+            "image":"https://cdn.etrias.nl/media/cache/product_thumb_md/n/e/new-balance-unisex-u1906wgs-black-black-cement-castlerock-silver-metallic-u1906wgs-d.jpg",
+            "prijs":160.00,
+            "text":"",
+            "brand": "New Balance"
+        },
+        {
+            "id":3,
+            "name":"Asics Kids GEL-1130 GS Black/Pure Silver",
+            "image":"https://cdn.etrias.nl/media/cache/product_thumb_xs/a/s/asics-kids-gel-1130-gs-black-pure-silver-1204a169-001.jpg",
+            "prijs":85.00,
+            "text":"",
+            "brand": "Asics"
+        },
+        {
+            "id":4,
+            "name":"Asics Kids GEL-1130 PS White/Cosmos",
+            "image":"https://cdn.etrias.nl/media/cache/product_thumb_xs/a/s/asics-kids-gel-1130-ps-white-cosmos-1204a170-103.jpg",
+            "prijs":75.00,
+            "text":"",
+            "brand": "Asics"
+        },
+        {
+            "id":6,
+            "name":"Asics Kids GEL-1130 PS White/Asics Blue",
+            "image":"https://cdn.etrias.nl/media/cache/product_thumb_xs/a/s/asics-kids-gel-1130-ps-white-asics-blue-1204a170-102.jpg",
+            "prijs":75.00,
+            "text":"",
+            "brand": "Asics"
+        },
+        {
+            "id":7,
+            "name":"adidas Unisex Samba XLG Night Indigo / Cream White / Gum",
+            "image":"https://cdn.etrias.nl/media/cache/product_thumb_xs/a/d/adidas-unisex-samba-xlg-night-indigo-cream-white-gum-js3827.jpg",
+            "prijs":130.00,
+            "text":"",
+            "brand": "Adidas"
+        },
+        {
+            "id":8,
+            "name":"adidas Unisex Samba XLG Wonder White / Core Black / Gum",
+            "image":"https://cdn.etrias.nl/media/cache/product_thumb_xs/a/d/adidas-unisex-samba-xlg-wonder-white-core-black-gum-js3828.jpg",
+            "prijs":130.00,
+            "text":"",
+            "brand": "Adidas"
+        },
+        {
+            "id":9,
+            "name":"adidas Women Handball Spezial Clear Pink / Green / Gold Metallic",
+            "image":"https://cdn.etrias.nl/media/cache/product_thumb_xs/a/d/adidas-women-handball-spezial-clear-pink-green-gold-metallic-jr7347.jpg",
+            "prijs":110.00,
+            "text":"",
+            "brand": "Adidas"
+        }
+     ]
+}

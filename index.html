@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExclusiveShoes</title>
+    <link rel="icon" type="image/png" href="image/logo.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <ul class="header__selling--point">
+                <li>
+                    <p class="header__top--text">
+                     ✔   Gratis Verzending
+                    </p>
+                    <p class="header__top--text">
+                      ✔  Gratis Retourneren
+                    </p>
+                    <p class="header__top--text">
+                     ✔   Achteraf Betalen
+                    </p>
+                </li>
+            </ul>
+            <ul class="header__customermenu">
+                <li>
+                    <a href="">
+                        <p class="header__top--text">
+                            Inloggen
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <p class="header__top--text">
+                        |
+                    </p>
+                </li>
+                <li>
+                    <a href="">
+                        <p class="header__top--text">
+                            KlantenService
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__main">
+            <div>
+                <img class="header__logo" src="image/logo.png" alt="Logo van het merk Exlusive Shoes">
+            </div>
+            <div class="search-container">
+                <input class="header__input" placeholder="Waar bent u naar op zoek?" type="text">
+                <button type="submit" class="search__button">
+                <img src="image/search.png" alt="search icon">
+                </button>
+            </div>
+            <div>
+                <a href="shoppingcart.html">
+                    <img id="cart" class="shopping-cart" src="image/imfke.svg" alt="shopping cart">
+                </a>
+                
+            </div>
+        </div>
+        <div class="header__menu">
+            <div>
+                <a href="nieuw.html"><p>NIEUW</p></a>
+            </div>
+            <div>
+                <a href="sneakers.html"><p>SNEAKERS</p></a>
+            </div>
+            <div>
+                <a href="heren.html"><p>HEREN</p></a>
+            </div>
+            <div>
+                <a href="dames.html"><p>DAMES</p></a>
+            </div>
+            <div>
+                <a href="kids.html"><p>KIDS</p></a>
+            </div>
+            <div>
+                <a href="sale.html"><p class="header__menu--sale">SALE</p></a>
+            </div>
+            <div>
+                <a href="brands.html"><p>BRANDS</p></a>
+            </div>
+        </div>
+    </header>
+    <div class="slideshow">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="image/nike_slideshow.png" class="slideshow__image" alt="Een foto van rode paar Jorans van Nike.">
+            <div class="slideshow__text">Shop Nike</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="image/adidas_slideshow.jpg" class="slideshow__image" alt="Een foto van adidas paar schoenen voor slideshow.">
+            <div class="slideshow__text">Shop Adidas</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="image/puma_slideshow.jpg" class="slideshow__image" alt="">
+            <div class="slideshow__text">Shop Puma</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <div class="mostpopular">
+        <p>MOST POPULAR</p>
+    </div>
+    <div class="mostpopular__items">
+        <div class="mostpopular__items--block">
+            <img class="mostpopular__img" src="https://cdn.etrias.nl/media/cache/image_box_small_lg/images/image_box/251708/alle-sneakers-ss25.jpg" alt="De meest populaire schoen van alle sneakers die is verkocht.">
+            <div class="label">Alle Sneakers</div>
+        </div>
+        <div class="mostpopular__items--block">
+            <img class="mostpopular__img" src="https://cdn.etrias.nl/media/cache/image_box_small_lg/images/image_box/251708/mannen-ss25.jpg" alt="De meest populaire bij de Heren">
+            <div class="label">Heren</div>
+        </div>
+        <div class="mostpopular__items--block">
+            <img class="mostpopular__img" src="https://cdn.etrias.nl/media/cache/image_box_small_lg/images/image_box/251708/dames-ss251.jpg" alt="De meest populaire bij de Dames.">
+            <div class="label">Dames</div>
+        </div>
+        <div class="mostpopular__items--block">
+            <img class="mostpopular__img" src="https://cdn.etrias.nl/media/cache/image_box_small_lg/images/image_box/251708/kleding-ss25-3.jpg" alt="Meest populaire kledingstuk">
+            <div class="label">Kleding</div>
+        </div>
+        <div class="mostpopular__items--block">
+            <img class="mostpopular__img" src="https://cdn.etrias.nl/media/cache/image_box_small_lg/images/image_box/251708/accessoires-ss25-3.jpg" alt="Meest populaire accessoires">
+            <div class="label">Accessories</div>
+        </div>
+        <div class="mostpopular__items--block">
+            <img class="mostpopular__img" src="https://cdn.etrias.nl/media/cache/image_box_small_lg/images/image_box/251708/kids-ss25.jpg" alt="Meest populaire bij Kinderen">
+            <div class="label">Kids</div>
+        </div>
+    </div>
+    <div class="logo-slider">
+        <div class="logo-track">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/Logo_Slider_Blok_newbalance.jpg" alt="New Balance logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/logosliderblok-adidasoriginal.png" alt="Adidas logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/asics-logo.png" alt="Asics logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/Logo_Slider_Blok_.karhu2jpg.jpg" alt="Karhu logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/logosliderblok-puma.jpg" alt="Puma logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/logosliderblokhi-tec.png" alt="Hi-tec logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/Logo_Slider_Blok_newbalance.jpg" alt="New Balance logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/logosliderblok-adidasoriginal.png" alt="Adidas logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/asics-logo.png" alt="Asics logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/Logo_Slider_Blok_.karhu2jpg.jpg" alt="Karhu logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/logosliderblok-puma.jpg" alt="Puma logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/logosliderblokhi-tec.png" alt="Hi-tec logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/Logo_Slider_Blok_newbalance.jpg" alt="New Balance logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/logosliderblok-adidasoriginal.png" alt="Adidas logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/asics-logo.png" alt="Asics logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/Logo_Slider_Blok_.karhu2jpg.jpg" alt="Karhu logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/logosliderblok-puma.jpg" alt="Puma logo">
+            <img class="merken__logo--img" src="https://cdn.etrias.nl/media/cache/brand/logosliderblokhi-tec.png" alt="Hi-tec logo">
+        </div>
+    </div>
+    <div class="nieuwste-sneakers">
+        <p>NIEUWSTE SNEAKERS</p>
+    </div>
+    <div class="nieuwste-sneakers__block">
+        <div class="nieuwste-sneakers__img">
+            <div><img src="https://cdn.etrias.nl/media/cache/product_thumb_xs/m/i/mizuno-unisex-mxr-silver-birch-snow-white-surf-the-web-d1ga2467-09.jpg" alt="Mizuno Unisex MXR Silver Birch/Snow White/Surf the Web"></div>
+            <div class="nieuwste-sneakers__div">
+                <div class="nieuwste-sneakers__text"><p>Mizuno Unisex MXR Silver</p></div>
+                <div class="nieuwste-sneakers__text"><p>Birch/Snow White/Surf the Web</p></div>
+                <div class="nieuwste-sneakers__prijs"><p>€ 120,00</p></div>  
+            </div>
+        </div>
+        <div class="nieuwste-sneakers__img">
+            <div><img src="https://cdn.etrias.nl/media/cache/product_thumb_xs/k/a/karhu-unisex-fusion-20-turtledove-cappuccino-f804183.jpg" alt="Karhu Unisex Fusion 2.0 Turtledove / Cappuccino"></div>
+            <div class="nieuwste-sneakers__div">
+                <div class="nieuwste-sneakers__text"><p>Karhu Unisex Fusion 2.0</p></div>
+                <div class="nieuwste-sneakers__text"><p>Turtledove / Cappuccino</p></div>
+                <div class="nieuwste-sneakers__prijs"><p>€ 150,00</p></div>
+            </div>  
+        </div>
+        <div class="nieuwste-sneakers__img">
+            <div><img src="https://cdn.etrias.nl/media/cache/product_thumb_xs/h/i/hi-tec-unisex-hts-shadow-rgs-star-white-dusk-blue-gum-k010002-173173.jpg" alt="Hi-Tec Unisex HTS Shadow RGS Star White / Dusk Blue / Gum"></div>
+            <div class="nieuwste-sneakers__div">
+                <div class="nieuwste-sneakers__text"><p>Hi-Tec Unisex HTS Shadow RGS</p></div>
+                <div class="nieuwste-sneakers__text"><p>Star White / Dusk Blue / Gum</p></div>
+                <div class="nieuwste-sneakers__prijs"><p>€ 160,00</p></div>
+            </div>
+        </div>
+        <div class="nieuwste-sneakers__img">
+            <div><img src="https://cdn.etrias.nl/media/cache/product_thumb_xs/a/s/asics-unisex-gel-kinetic-fluent-white-white-1203a591-101.jpg" alt="ASICS Unisex GEL-KINETIC FLUENT White / White"></div>
+            <div class="nieuwste-sneakers__div">
+                <div class="nieuwste-sneakers__text"><p>ASICS Unisex GEL-KINETIC</p></div>
+                <div class="nieuwste-sneakers__text"><p>FLUENT White / White</p></div>
+                <div class="nieuwste-sneakers__prijs"><p>€ 190,00</p></div>
+            </div>           
+        </div>
+        <div class="nieuwste-sneakers__img">
+            <div><img src="https://cdn.etrias.nl/media/cache/product_thumb_xs/s/a/saucony-unisex-progrid-omni-9-white-gold-s70907-2.jpg" alt="Saucony Unisex ProGrid Omni 9 White/Gold"></div>
+            <div class="nieuwste-sneakers__div">
+                <div class="nieuwste-sneakers__text"><p>Saucony Unisex ProGrid Omni 9</p></div>
+                <div class="nieuwste-sneakers__text"><p>White/Gold</p></div>
+                <div class="nieuwste-sneakers__prijs"><p>€ 180,00</p></div>
+            </div>
+        </div>
+        <div class="nieuwste-sneakers__img">          
+            <div><img src="https://cdn.etrias.nl/media/cache/product_thumb_xs/n/e/new-balance-unisex-m1000mew-sea-salt-sea-salt-m1000mew-d.jpg" alt="New Balance Unisex M1000MEW Sea Salt/Sea Salt"></div>
+            <div class="nieuwste-sneakers__div">
+                <div class="nieuwste-sneakers__text"><p>New Balance Unisex M1000MEW</p></div>
+                <div class="nieuwste-sneakers__text"><p>Sea Salt/Sea Salt</p></div>
+                <div class="nieuwste-sneakers__prijs"><p>€ 169,95</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="merken">
+        <p>MERKEN</p>
+    </div>
+    <div class="merken__block">
+        <div class="merken__block--div">
+            <img src="https://cdn.etrias.nl/media/cache/image_box_large_wide_xl/images/image_box_large/251606/adidas-ss25.jpg" alt="Adidas">
+            <p class="merken__block--adidas">Shop Adidas</p>
+        </div>
+        <div class="merken__block--div">
+            <img src="https://cdn.etrias.nl/media/cache/image_box_large_wide_xl/images/image_box_large/251606/asics-ss252.jpg" alt="Asics">
+            <p class="merken__block--asics">Shop Asics</p>
+        </div>
+        <div class="merken__block--div">
+            <img src="https://cdn.etrias.nl/media/cache/image_box_large_wide_xl/images/image_box_large/251606/new-balance-ss25.jpg" alt="New Balance">
+            <p class="merken__block--newbalance">Shop New Balance</p>
+        </div>
+        <div class="merken__block--div">
+            <img src="https://cdn.etrias.nl/media/cache/image_box_large_wide_xl/images/image_box_large/251606/saucony-ss25.jpg" alt="Saucony">
+            <p class="merken__block--saucony">Shop Saucony</p>
+        </div>
+    </div>
+    <div class="service">
+        <div class="klantenservice">
+            <p class="klantenservice__header">Klantenservice</p>
+            <p>Verzending & bezorgen</p>
+            <p>Ruilen & retourneren</p>
+            <p>Betaalmethodes</p>
+            <p>Garantie</p>
+            <p>Inloggen</p>
+            <p>Veelgestelde vragen</p>
+        </div>
+        <div class="over-ons">
+            <p class="over-ons__header">Over Exclusive Shoes</p>
+            <p>About us</p>
+            <p>Onze webshops</p>
+            <p>Onze store</p>
+            <p>Giftcard</p>
+            <p>Sitemap</p>
+        </div>
+        <div class="service__middle--right">
+            <div class="klantbeoordeling">
+                <p class="klantbeoordeling__header">Klantbeoordeling</p>
+                <img class="sterren" src="image/5 stars white transparent.png" alt="5 white transparent stars">
+                <p>10 / 10 door 9385 klanten</p>
+            </div>
+            <div class="bezoek-ons">
+                <p class="bezoek-ons__header">Bezoek onze store</p>
+                <p>Maandag t/m vrijdag 09:00 - 22:00</p>
+                <p>Zaterdag: 11:00 - 20:00</p>
+                <p>Zondag 13:00 - 18:00</p>
+                <p>Moscow, Russia, 103132</p>
+            </div>
+        </div>
+        
+        <div class="service__right">
+            <div class="advies">
+                <p class="advies__header">Direct advies</p>
+                <p>Mail onze klantenservice</p>
+            </div>
+            <div class="service__logo">
+                <p>Socials SD</p>
+                <img src="image/instagramlogo.png" alt="Logo van Instagram">
+                <img src="image/facebook logo.png" alt="Logo van Facebook">
+            </div>
+        </div>
+
+    </div>
+   <footer class="footer">
+        <div class="footer__logo">
+            <img src="image/logo.png" alt="De logo van ExclusiveShoes">
+        </div>
+        <div class="footer-right">
+            <div class="footer__paymethods">
+                <img src="image/ideal.png" alt="Logo van ideal">
+                <img src="image/Paypal.png" alt="Logo van Paypal">
+                <img src="image/mastercard.png" alt="Logo van Mastercard">
+                <img src="image/visa.png" alt="Logo van Visa">
+                <img src="image/bancontact-logo-brandlogos.net_.png" alt="Logo van Bancontact">
+                <img src="image/klarna.png" alt="Logo van Klarna">
+            </div>
+                <p>Algemene Voorwaarden | Privacy | Gegevensverwerking</p>
+                <p>Copyright © 2025 - Onderdeel van FM-Corporations.</p>
+        </div>
+    </footer> 
+</body>
+</html>
