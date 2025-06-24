@@ -13,6 +13,17 @@ body{
     min-height:100vh;
 }
 
+
+body.dark-mode header,
+body.dark-mode main,
+body.dark-mode footer,
+body.dark-mode nav,
+body.dark-mode section,
+body.dark-mode div {
+  background-color: #1e1e1e;
+  color: grey;
+}
+
 header{
     background:white;
     height: 11rem;
@@ -41,6 +52,21 @@ header{
   color:white;
   list-style:none;
   text-decoration:none;
+}
+
+.darkmode__div{
+  background:white;
+  margin:0.5rem;
+}
+
+.darkmode__div--button{
+  background-color: black;
+  color: white;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 .header__selling--point--list{

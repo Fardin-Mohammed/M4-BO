@@ -1,5 +1,11 @@
-let slideIndex = 0;
+
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}let slideIndex = 0;
 showSlides();
+
 
 let timer = setInterval(() => {
   plusSlides(1);

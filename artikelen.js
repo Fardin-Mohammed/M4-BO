@@ -1,3 +1,5 @@
+
+
 const buttons = document.getElementsByClassName("artikelen__div--button");
 const cart = document.getElementById("js--cart");
 const background = document.getElementsByClassName("modal__background")[0];
@@ -8,6 +10,9 @@ const price = document.getElementsByClassName("modal__price")[0];
 const addButtons = document.getElementsByClassName("modal__button");
 const exit = document.getElementsByClassName("modal__exit")[0];
 const filters = document.getElementsByClassName("filters__item--checkbox");
+
+
+
 
 let index = 1;
 
@@ -104,3 +109,9 @@ for(let i = 0; i < filters.length; i++){
         }
     }
 }
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}let slideIndex = 0;
+showSlides();
